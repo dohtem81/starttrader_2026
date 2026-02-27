@@ -1,0 +1,46 @@
+system_id: sol-1
+version: 1
+locations:
+  - id: earth-orbit-station
+    code: earth-orbit-station
+    name: Earth Orbit Station
+    location_type: station
+    x: -1200
+    y: 300
+    security_level: 90
+    has_market: true
+    has_repair: true
+    has_refuel: true
+
+  - id: mars-orbit-station
+    code: mars-orbit-station
+    name: Mars Orbit Station
+    location_type: station
+    x: 2200
+    y: -600
+    security_level: 82
+    has_market: true
+    has_repair: true
+    has_refuel: true
+
+  - id: ceres-hub
+    code: ceres-hub
+    name: Ceres Hub
+    location_type: station
+    x: 800
+    y: 2100
+    security_level: 68
+    has_market: true
+    has_repair: true
+    has_refuel: true
+
+  - id: jupiter-trade-ring
+    code: jupiter-trade-ring
+    name: Jupiter Trade Ring
+    location_type: station
+    x: 5400
+    y: 1200
+    security_level: 40
+    has_market: true
+    has_repair: true
+    has_refuel: true

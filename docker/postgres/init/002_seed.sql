@@ -1,0 +1,3 @@
+-- Seed data placeholder.
+-- Add MVP world/economy seed INSERT statements here as tables are added.
+-- Files in /docker-entrypoint-initdb.d run only for a brand-new postgres_data volume.

@@ -1,0 +1,110 @@
+system_id: sol-1
+version: 1
+prices:
+  - location_id: earth-orbit-station
+    items:
+      - commodity_id: food
+        buy_price: 9
+        sell_price: 7
+        stock_qty: 320
+      - commodity_id: water
+        buy_price: 8
+        sell_price: 6
+        stock_qty: 280
+      - commodity_id: ore
+        buy_price: 24
+        sell_price: 20
+        stock_qty: 130
+      - commodity_id: electronics
+        buy_price: 42
+        sell_price: 37
+        stock_qty: 110
+      - commodity_id: medicine
+        buy_price: 48
+        sell_price: 42
+        stock_qty: 95
+      - commodity_id: machinery
+        buy_price: 62
+        sell_price: 55
+        stock_qty: 70
+
+  - location_id: mars-orbit-station
+    items:
+      - commodity_id: food
+        buy_price: 13
+        sell_price: 10
+        stock_qty: 180
+      - commodity_id: water
+        buy_price: 11
+        sell_price: 9
+        stock_qty: 170
+      - commodity_id: ore
+        buy_price: 18
+        sell_price: 15
+        stock_qty: 240
+      - commodity_id: electronics
+        buy_price: 40
+        sell_price: 35
+        stock_qty: 130
+      - commodity_id: medicine
+        buy_price: 52
+        sell_price: 46
+        stock_qty: 80
+      - commodity_id: machinery
+        buy_price: 58
+        sell_price: 52
+        stock_qty: 90
+
+  - location_id: ceres-hub
+    items:
+      - commodity_id: food
+        buy_price: 12
+        sell_price: 9
+        stock_qty: 190
+      - commodity_id: water
+        buy_price: 10
+        sell_price: 8
+        stock_qty: 180
+      - commodity_id: ore
+        buy_price: 16
+        sell_price: 13
+        stock_qty: 300
+      - commodity_id: electronics
+        buy_price: 38
+        sell_price: 33
+        stock_qty: 120
+      - commodity_id: medicine
+        buy_price: 50
+        sell_price: 44
+        stock_qty: 85
+      - commodity_id: machinery
+        buy_price: 53
+        sell_price: 47
+        stock_qty: 115
+
+  - location_id: jupiter-trade-ring
+    items:
+      - commodity_id: food
+        buy_price: 16
+        sell_price: 12
+        stock_qty: 120
+      - commodity_id: water
+        buy_price: 14
+        sell_price: 10
+        stock_qty: 130
+      - commodity_id: ore
+        buy_price: 21
+        sell_price: 17
+        stock_qty: 190
+      - commodity_id: electronics
+        buy_price: 34
+        sell_price: 30
+        stock_qty: 170
+      - commodity_id: medicine
+        buy_price: 58
+        sell_price: 52
+        stock_qty: 70
+      - commodity_id: machinery
+        buy_price: 48
+        sell_price: 42
+        stock_qty: 140

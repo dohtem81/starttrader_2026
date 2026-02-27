@@ -1,0 +1,49 @@
+version: 1
+commodities:
+  - id: food
+    code: food
+    name: Food
+    unit_mass: 1
+    base_price: 10
+    volatility: 0.12
+    illegal_level: 0
+
+  - id: water
+    code: water
+    name: Water
+    unit_mass: 1
+    base_price: 8
+    volatility: 0.10
+    illegal_level: 0
+
+  - id: ore
+    code: ore
+    name: Ore
+    unit_mass: 2
+    base_price: 20
+    volatility: 0.18
+    illegal_level: 0
+
+  - id: electronics
+    code: electronics
+    name: Electronics
+    unit_mass: 1
+    base_price: 36
+    volatility: 0.25
+    illegal_level: 0
+
+  - id: medicine
+    code: medicine
+    name: Medicine
+    unit_mass: 1
+    base_price: 44
+    volatility: 0.28
+    illegal_level: 0
+
+  - id: machinery
+    code: machinery
+    name: Machinery
+    unit_mass: 3
+    base_price: 55
+    volatility: 0.22
+    illegal_level: 0

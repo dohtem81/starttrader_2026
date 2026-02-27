@@ -1,0 +1,101 @@
+system_id: sol-1
+version: 1
+zones:
+  - id: z_earth_core_safe
+    zone_type: core_safe
+    center_x: -1200
+    center_y: 300
+    radius: 550
+    risk_level: 8
+    security_level: 92
+    profit_multiplier: 1.00
+    pvp_allowed: false
+    active: true
+
+  - id: z_mars_core_safe
+    zone_type: core_safe
+    center_x: 2200
+    center_y: -600
+    radius: 500
+    risk_level: 10
+    security_level: 88
+    profit_multiplier: 1.00
+    pvp_allowed: false
+    active: true
+
+  - id: z_earth_approach_high_value
+    zone_type: approach_high_value
+    center_x: -1200
+    center_y: 300
+    radius: 1250
+    risk_level: 58
+    security_level: 42
+    profit_multiplier: 1.22
+    pvp_allowed: true
+    active: true
+
+  - id: z_mars_approach_high_value
+    zone_type: approach_high_value
+    center_x: 2200
+    center_y: -600
+    radius: 1350
+    risk_level: 66
+    security_level: 34
+    profit_multiplier: 1.28
+    pvp_allowed: true
+    active: true
+
+  - id: z_jupiter_approach_high_value
+    zone_type: approach_high_value
+    center_x: 5400
+    center_y: 1200
+    radius: 1700
+    risk_level: 78
+    security_level: 22
+    profit_multiplier: 1.45
+    pvp_allowed: true
+    active: true
+
+  - id: z_inner_belt_open
+    zone_type: belt_open
+    center_x: 700
+    center_y: 500
+    radius: 2500
+    risk_level: 38
+    security_level: 52
+    profit_multiplier: 1.10
+    pvp_allowed: true
+    active: true
+
+  - id: z_ceres_belt_open
+    zone_type: belt_open
+    center_x: 800
+    center_y: 2100
+    radius: 1600
+    risk_level: 44
+    security_level: 46
+    profit_multiplier: 1.16
+    pvp_allowed: true
+    active: true
+
+  - id: z_outer_edge_wild_east
+    zone_type: edge_wild
+    center_x: 6900
+    center_y: 400
+    radius: 1900
+    risk_level: 90
+    security_level: 10
+    profit_multiplier: 1.58
+    pvp_allowed: true
+    active: true
+
+  - id: z_outer_edge_wild_northwest
+    zone_type: edge_wild
+    center_x: -5400
+    center_y: 5200
+    radius: 1800
+    risk_level: 86
+    security_level: 12
+    profit_multiplier: 1.52
+    pvp_allowed: true
+    active: true
