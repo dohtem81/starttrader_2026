@@ -6,7 +6,7 @@ Provide implementation-ready pseudocode for a deterministic, idempotent `seed_lo
 
 ## Scope
 
-- Reads YAML seed files from `doc/seeds/`
+- Reads YAML seed files from `docs/seeds/`
 - Validates schema + business rules
 - Upserts into PostgreSQL in one transaction
 - Supports dry-run mode
@@ -74,7 +74,7 @@ def main(argv):
 
 ```python
 def parse_args(argv):
-    # --seed-dir (default: doc/seeds)
+    # --seed-dir (default: docs/seeds)
     # --dry-run
     # --strict-version
     # --fail-on-warning

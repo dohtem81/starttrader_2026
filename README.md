@@ -4,6 +4,8 @@
 
 This project is currently under active development and subject to frequent changes.
 
+This project was built using GitHub Copilot as a coding accelerator, while all system architecture, protocol design, data modeling, and performance decisions were designed and validated manually.
+
 StarTrader is a multiplayer 2D space trading game (web-based) with realtime ship control, PvE pirate encounters, and economy-driven gameplay in a single star system (`sol-1`).
 
 ## Current Project State
@@ -14,7 +16,7 @@ This repository currently includes:
 - PostgreSQL schema + world seed SQL
 - Redis-backed login profile cache (24h cache-aside with sliding expiration)
 - Containerized local development via Docker Compose
-- Planning and implementation docs under `doc/`
+- Planning and implementation docs under `docs/`
 
 ## Architecture Overview
 
@@ -100,7 +102,7 @@ Or VS Code task:
 
 ```text
 backend/                 # FastAPI app and services
-doc/                     # Game design + technical docs + seeds
+docs/                    # Game design + technical docs + seeds
 docker/                  # Dockerfiles, DB init SQL, operational notes
 docker-compose.yml       # Local orchestration
 scripts/                 # Utility scripts (test run/stop)
@@ -110,19 +112,20 @@ scripts/                 # Utility scripts (test run/stop)
 
 Start here for project design and contracts:
 
-- `doc/README.md`
+- `docs/README.md`
 
 Important docs:
 
-- Game/product vision: `doc/game-vision.md`
-- MVP scope: `doc/mvp-scope.md`
-- Technical architecture: `doc/technical-architecture.md`
-- Realtime protocol: `doc/realtime-protocol.md`
-- Data model: `doc/data-model.md`
-- HTTP API: `doc/api-http.md`
-- Login cache service: `doc/login-cache-service.md`
-- Zone model + balancing: `doc/zone-model.md`, `doc/balance-rules.md`
-- Seed files: `doc/seeds/`
+- System design (short): `docs/system_design.md`
+- Game/product vision: `docs/game-vision.md`
+- MVP scope: `docs/mvp-scope.md`
+- Technical architecture: `docs/technical-architecture.md`
+- Realtime protocol: `docs/realtime-protocol.md`
+- Data model: `docs/data-model.md`
+- HTTP API: `docs/api-http.md`
+- Login cache service: `docs/login-cache-service.md`
+- Zone model + balancing: `docs/zone-model.md`, `docs/balance-rules.md`
+- Seed files: `docs/seeds/`
 
 ## Notes
 

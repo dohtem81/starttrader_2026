@@ -5,6 +5,7 @@ This folder contains project documentation for **StarTrader** (2D multiplayer we
 ## Docs Index
 
 - [Game Vision](./game-vision.md)
+- [System Design](./system_design.md)
 - [MVP Scope](./mvp-scope.md)
 - [Technical Architecture](./technical-architecture.md)
 - [Realtime Protocol](./realtime-protocol.md)
